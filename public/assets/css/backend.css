@@ -1,0 +1,74 @@
+.label-error {
+    color:red;
+    text-align: start;
+}
+
+.label-success {
+    color:green;
+    text-align: start;
+}
+.error-hide {
+    display: none;
+}
+
+#preview-wrapper {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#thumb-image {
+    width: 100%;
+
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);    
+}
+.choose-file-button {
+    background-color: #4a94d0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+.button-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
+}
+
+.change-file-button {
+    background-color: #4a94d0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    opacity: 0.3; 
+    cursor: pointer;
+    display: inline-block;
+}
+.change-file-button:hover {
+    opacity: 1;
+}
+
+.image-wapper {
+    border: 1px solid black; 
+    height:140px;
+    overflow:hidden;
+}
+.button-style {
+    margin: 10px;
+}
